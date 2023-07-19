@@ -21,3 +21,25 @@
 # Temporary files
 /app-backend/*.tmp
 
+
+# Dependency directories
+/app-frontend/node_modules/
+/app-frontend/dist/
+
+# IDE files
+/app-frontend/.vscode/
+/app-frontend/.idea/
+
+# Compiled output
+/app-frontend/*.js
+/app-frontend/*.js.map
+
+# Environment-specific properties
+/app-frontend/src/environments/*.ts
+
+# Log files
+/app-frontend/*.log
+
+# Temporary files
+/app-frontend/*.tmp
+
