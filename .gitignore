@@ -1,0 +1,23 @@
+# Build artifacts
+/app-backend/target/
+/app-backend/build/
+
+# IDE files
+/app-backend/.project
+/app-backend/.classpath
+/app-backend/.settings/
+/app-backend/.idea/
+
+# Environment-specific properties
+/app-backend/application-dev.properties
+/app-backend/application-prod.properties
+
+# Log files
+/app-backend/*.log
+
+# Database dumps
+/app-backend/*.sql
+
+# Temporary files
+/app-backend/*.tmp
+
