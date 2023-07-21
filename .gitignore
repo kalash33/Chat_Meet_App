@@ -43,3 +43,4 @@
 # Temporary files
 /app-frontend/*.tmp
 
+.DS_Store
