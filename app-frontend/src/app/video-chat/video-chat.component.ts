@@ -98,7 +98,7 @@ export class VideoChatComponent {
   }
 
   private setupLocalVideo(): void {
-    navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+    navigator.mediaDevices.getUserMedia({ video: true, audio: false })
       .then((stream) => {
         const localVideoElement: HTMLVideoElement = this.localVideoRef.nativeElement;
         localVideoElement.srcObject = stream;
